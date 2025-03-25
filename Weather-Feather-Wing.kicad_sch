@@ -4503,6 +4503,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Check schematic in Section 2.5 Interface Specifications of the datasheet."
+		(exclude_from_sim no)
+		(at 288.036 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04e26fe1-d733-4408-86d2-3672ff46ee30")
+	)
 	(text "ON LED"
 		(exclude_from_sim no)
 		(at 88.9 60.96 0)
@@ -9747,7 +9757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 323.85 177.7999 0)
 			(effects
 				(font
@@ -10260,7 +10270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 309.88 185.4199 0)
 			(effects
 				(font
@@ -11510,7 +11520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "4.7"
 			(at 322.58 167.6399 0)
 			(effects
 				(font
