@@ -4601,7 +4601,7 @@
 		)
 		(uuid "88fcf1dc-386d-49b2-bf76-1389f781dc6c")
 	)
-	(text "VDD: 1.65V - 3.6V\nTEMPERATURE: -40*C - 85*C\nI2C ADDRESS: 0x77"
+	(text "VDD: 1.65V - 3.6V\nTEMPERATURE: -40*C - 85*C\nI2C ADDRESS: 0x77\n\nBMP581 I2C Address: 0x47"
 		(exclude_from_sim no)
 		(at 69.85 228.6 0)
 		(effects

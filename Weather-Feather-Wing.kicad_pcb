@@ -9320,6 +9320,18 @@
 		(layer "Edge.Cuts")
 		(uuid "eac15988-ccdd-4dae-81a6-772cbd33e921")
 	)
+	(gr_text "WEATHER FEATHER WING\nDESIGNED BY BEN CROCKETT\n\nSHT4x: 0x44		BMP390: 0x77\nSGP4x: 0x59		BMP581: 0x47\nSCD4x: 0x62"
+		(at 194.5386 109.22 0)
+		(layer "B.SilkS")
+		(uuid "f5d88cea-b793-4afe-8605-2df94982b347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
