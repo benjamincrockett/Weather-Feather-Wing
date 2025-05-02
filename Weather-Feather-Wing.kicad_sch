@@ -4455,7 +4455,7 @@
 		)
 		(uuid "911612f0-fdcf-494e-ab83-aa2fcee44c77")
 	)
-	(text "STEMMA /QWIIC /I2C Headers /JST SH"
+	(text "STEMMA QT Connectors /JST SH: SM04B-SRSS-TB"
 		(exclude_from_sim no)
 		(at 218.44 73.66 0)
 		(effects
@@ -4962,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 99.06 43.18)
+			(xy 99.06 46.99) (xy 99.06 44.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -5142,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 53.34) (xy 99.06 54.61)
+			(xy 99.06 54.61) (xy 99.06 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6092,7 +6092,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 34.29) (xy 99.06 35.56)
+			(xy 99.06 35.56) (xy 99.06 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7621,7 +7621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 54.61 0)
+		(at 99.06 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7630,7 +7630,7 @@
 		(fields_autoplaced yes)
 		(uuid "26fab28d-6a7a-4f2c-b99f-df8e9725356e")
 		(property "Reference" "#PWR016"
-			(at 99.06 60.96 0)
+			(at 99.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 59.69 0)
+			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 54.61 0)
+			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 54.61 0)
+			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 54.61 0)
+			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7692,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "28ce5aa1-bd85-4be7-bdb8-f098bb50e63d")
 		(property "Reference" "J3"
@@ -7713,7 +7713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+		(property "Footprint" "Weather_Feather:PinHeader_1x16_P2.54mm_Vertical"
 			(at 316.23 44.45 0)
 			(effects
 				(font
@@ -7799,7 +7799,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 99.06 34.29 0)
+		(at 99.06 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7808,7 +7808,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a9e4bae-bab6-41ec-88a8-783ac66e1569")
 		(property "Reference" "#PWR011"
-			(at 99.06 38.1 0)
+			(at 99.06 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7817,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 99.06 29.21 0)
+			(at 99.06 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +7825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 34.29 0)
+			(at 99.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 34.29 0)
+			(at 99.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +7843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 99.06 34.29 0)
+			(at 99.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8314,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 99.06 49.53 90)
+		(at 99.06 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8323,7 +8323,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bc98a3c-89ca-4a68-b208-16923fafe871")
 		(property "Reference" "D1"
-			(at 102.87 49.8474 90)
+			(at 102.87 51.1174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8332,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 102.87 52.3874 90)
+			(at 102.87 53.6574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8341,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 99.06 49.53 0)
+			(at 99.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 49.53 0)
+			(at 99.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8359,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 99.06 49.53 0)
+			(at 99.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8368,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 99.06 49.53 0)
+			(at 99.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9056,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 99.06 39.37 0)
+		(at 99.06 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9065,7 +9065,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b97fd81-1019-49a9-81db-681bb7719b50")
 		(property "Reference" "R1"
-			(at 101.6 38.0999 0)
+			(at 101.6 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9074,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 101.6 40.6399 0)
+			(at 101.6 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +9083,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 100.076 39.624 90)
+			(at 100.076 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +9092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 39.37 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9101,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 99.06 39.37 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +9822,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "93e0f6de-bfe3-4c33-9a34-67f4a0571dcd")
 		(property "Reference" "J4"
@@ -9843,7 +9843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "Weather_Feather:PinHeader_1x12_P2.54mm_Vertical"
 			(at 354.33 49.53 0)
 			(effects
 				(font
